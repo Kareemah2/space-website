@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('starter-code/assets/home/background-home-desktop.png');
+  background-repeat: no-repeat;
+}
+/* HOME PAGE  */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 3rem;
+  position: relative;
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.logos img {
+  height: 40px;
+}
+
+.img2 img {
+  height: 1px;
+  width: 500px;
+  opacity: 0.3;
+}
+
+.navlinks {
+  display: flex;
+  gap: 2.5rem;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 2rem 4rem;
+}
+
+.navlinks a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 14px;
+  letter-spacing: 2px;
+  position: relative;
+}
+
+.navlinks a:hover,
+.navlinks a:focus {
+  border-bottom: 2px solid white;
+}
+
+.main-cont {
+  margin: 25px;
+  padding: 0;
+}
+
+.inner-cont {
+  margin: 8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+
+.text-cont {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-right: 6rem;
+  justify-content: center;
+  width: 35%;
+}
+
+.txt2 {
+  font-family: 'Bellefair', serif;
+  font-size: 6rem;
+  color: white;
+}
+
+.txt3 {
+  font-size: 12px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.btn-exp {
+  width: 247px;
+  height: 247px;
+}
+
+.explore-btn {
+  background-color: white;
+  color: black;
+  font-family: monospace;
+  font-size: 20px;
+  border: none;
+  border-radius: 50%;
+  width: 196px;
+  height: 189px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem auto;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.explore-btn:hover {
+  box-shadow: 0 0 0 60px rgba(255, 255, 255, 0.1);
+  transform: scale(1.05);
+}
+
+/* DESTINATION PAGE  */
+
+body.destination-page {
+  font-family: Arial, sans-serif;
+  background-image: url('starter-code\assets\destination\background-destination-desktop.jpg');
+  background-repeat: no-repeat;
+}
+
+.main-cont2 {
+  margin: 2rem 7rem;
+}
+
+.inner-cont2 {
+  padding: 2rem 0;
+}
+
+.moon-main-cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}

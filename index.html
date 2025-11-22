@@ -9,30 +9,40 @@
     <link
       rel="stylesheet"
       href="style.css" />
+
+    <script src="script.js" defer></script>
   </head>
   <body>
     <div class="home-cont">
       <div class="navbar">
+
         <div class="logos">
-          <div class="img1">
-            <img
+          <a href="index.html">
+            <div class="img1">
+              <img
               src="starter-code\assets\shared\logo.svg"
               alt="logo-img" />
-          </div>
-          <div class="img2">
-            <img
+            </div></a>
+            <div class="img2">
+              <img
               src="starter-code\assets\line.png"
               alt="menu-img" />
           </div>
         </div>
-        <div class="navlinks">
-          <a href="#">00 HOME</a>
+        <div class="navlinks" id="navlinks">
+          <a href="index.html">00 HOME</a>
           <a href="destination-moon.html">01 DESTINATION</a>
-          <a href="#">02 CREW</a>
-          <a href="#">03 TECHNOLOGY</a>
+          <a href="crew-commander.html">02 CREW</a>
+          <a href="technology-vehicle.html">03 TECHNOLOGY</a>
+        </div>
+        <div class="menu-icon" id="menu-icon">
+          <img
+            src="starter-code\assets\shared\icon-hamburger.svg"
+            alt="menu-icon" />
         </div>
       </div>
-      <div class="main-cont">
+          <div class="overlay"></div>
+        <div class="main-cont">
         <div class="inner-cont">
         <div class="text-cont">
           <h2 class="txt1">SO, YOU WANT TO TRAVEL TO</h2>
